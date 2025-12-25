@@ -19,3 +19,11 @@ A secure, full-stack web application built with Python (Flask) that demonstrates
 1. Install dependencies:
 ```bash
    pip install -r requirements.txt
+
+## 🎥 Project Demo
+https://github.com/user-attachments/assets/7d7d1e7d-ec91-4e6d-a066-ff4252af47cd
+
+
+
+
+
