@@ -1,0 +1,120 @@
+/* --- GLOBAL STYLES --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Cool Purple-Blue Gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* --- THE CARD CONTAINER (Used on Dashboard) --- */
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 400px;
+    max-width: 90%;
+}
+
+/* --- FORMS (Login/Register) --- */
+form {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #718096;
+    margin-bottom: 20px;
+}
+
+/* --- INPUTS & LABELS --- */
+label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+input {
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #667eea;
+}
+
+/* --- BUTTONS --- */
+button {
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%; /* Full width button */
+}
+
+button:hover {
+    background-color: #5a67d8;
+    transform: translateY(-2px);
+}
+
+/* --- LOGOUT BUTTON SPECIFIC --- */
+.btn-logout {
+    background-color: #e53e3e; /* Red for logout */
+}
+.btn-logout:hover {
+    background-color: #c53030;
+}
+
+/* --- LISTS (For Dashboard Data) --- */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    background: #f7fafc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+}

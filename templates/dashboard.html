@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Welcome, {{ username }}! 👋</h1>
+        <p>You have successfully logged into the Secure Area.</p>
+        
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+
+        <h3>🔐 Your Secret Data</h3>
+        <ul>
+            <li><strong>Status:</strong> Authorized ✅</li>
+            <li><strong>Role:</strong> Administrator 🛡️</li>
+            <li><strong>Access Level:</strong> High</li>
+        </ul>
+        
+        <br>
+        <a href="/logout">
+            <button class="btn-logout">Logout</button>
+        </a>
+    </div>
+
+</body>
+</html>
